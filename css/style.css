@@ -39,9 +39,11 @@ ul li {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  text-transform: uppercase;
 }
 .header-menu-item {
+}
+.header-menu-link {
+  color: #2e2f42;
 }
 .header-menu-link:hover {
   color: #404bbf;
@@ -63,12 +65,7 @@ ul li {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.header-address-link:hover {
-  background-color: #404bbf;
-}
-.header-address-link:focus {
-  background-color: #404bbf;
-}
+
 .basis {
   background: #2e2f42;
 }
@@ -91,10 +88,10 @@ ul li {
   cursor: pointer;
 }
 .basis-button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .basis-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .feauter {
 }
