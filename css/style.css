@@ -16,12 +16,13 @@ ul li {
 .header-navigation {
 }
 .header-logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .header-logo span {
   color: #2e2f42;
@@ -63,10 +64,10 @@ ul li {
   letter-spacing: 0.02em;
 }
 .header-address-link:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .header-address-link:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .basis {
   background: #2e2f42;
